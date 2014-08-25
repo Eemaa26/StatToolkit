@@ -1,0 +1,19 @@
+Package: StatToolkit
+Type: Package
+Title: Functions to analyze and visualize likert type items
+Version: 1.0
+Date: 2014-08-24
+Author: Jason Bryer <jason@bryer.org>, Bruce Dudek
+    <bruce.dudek@albany.edu>
+Maintainer: Jason Bryer <jason@bryer.org>
+URL: http://github.com/jbryer/StatToolkit
+BugReports: https://github.com/jbryer/StatToolkit/issues
+Description: Utilities for teaching statistics
+License: GPL
+LazyLoad: yes
+Depends:
+    R (>= 3.0),ggplot2,reshape2
+Imports:
+    psych
+Suggests:
+    devtools,shiny
